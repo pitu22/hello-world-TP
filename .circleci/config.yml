@@ -20,7 +20,7 @@ steps :
   - checkout
   - run: echo "A more familiar hi"
   - run: sleep 15 
-workf lows :
+workflows :
   version: 2
   one_and_two: 
      jobs: 
