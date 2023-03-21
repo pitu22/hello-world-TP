@@ -6,7 +6,7 @@ jobs:
         auth :
           username :pitu22
           password:Teju@1422
-   steps :
+    steps :
      - checkout $ this pulls code down from GitHub
      - run: echo "A first hello"
      - run: sleep 25 
