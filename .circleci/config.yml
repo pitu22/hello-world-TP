@@ -10,16 +10,16 @@ jobs:
      - checkout 
      - run: echo "A first hello"
      - run: sleep 25 
-two: 
- docker: 
-    - image: coreappimage 
-      auth :
-        username: pitu22
-        password: Teju@1422
-steps :
-  - checkout
-  - run: echo "A more familiar hi"
-  - run: sleep 15 
+  two: 
+    docker: 
+      - image: coreappimage 
+        auth :
+          username: pitu22
+          password: Teju@1422
+    steps :
+      - checkout
+      - run: echo "A more familiar hi"
+      - run: sleep 15 
 workflows :
   version: 2
   one_and_two: 
